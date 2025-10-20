@@ -1,0 +1,256 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    background-color: #00c3ff;
+    color: blanchedalmond;
+    padding: 0px 0;
+    top: 0;
+    width: 100%;
+
+}
+
+header nav ul {
+    list-style-type:none ;
+    display: flex;
+    height: 10px;
+}
+
+header nav ul li{
+    margin-left: 65%;
+    
+}
+header nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
+}
+
+a.active, a:hover{
+    color :rgb(255, 20, 157);
+}
+
+.icons ion-icon{
+    color:aquamarine;
+    font-size: 40px;
+    padding-left: 14px;
+    padding-top:5px;
+    transition: 03s ease;
+}
+
+.icons ion-icon:hover{
+    color:blueviolent;
+
+}
+
+nav{
+    display:flex;
+    padding:30px;
+    line-height: 50px;
+
+}   
+
+footer{
+    background-color:rgb(20, 169, 255);
+    color:black;
+    padding:0rem;
+    clear: both;
+    height: 19%;
+
+}
+
+footercontent{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footerbottom{
+    text-align: center;
+    padding-top: 0px;
+    border-color: black;
+
+}
+
+.footersection,h3{
+    margin-top:0;
+
+}
+
+
+
+footer{
+    
+    width:100%;
+    position:fixed; 
+    line-height: 20px;
+    bottom: 0px;
+
+}
+
+footer span{
+    font-size: 10px;
+    line-height:5px;
+
+} 
+
+#contact-form{
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 10px;
+    background-color: #00c3ff;
+    border: 1px solid #ff0095;
+    box-shadow: #ff0095;
+
+}
+
+body h1{
+    font-style: italic;
+    font-weight: bold;
+}
+
+#contact-form label{
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+#contact-form input, #contact-form
+textarea{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    padding: 10px;
+    
+
+}
+
+#contact-form
+button[type="submit"]:hover{
+    background-color: #00c3ff;
+    color: #ff0095;
+    padding: 20px;
+    cursor: pointer;
+    border: none;
+
+}
+
+#order-table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#order-table th,order-table td{
+    border: 20px solid;
+    padding: 5px;
+    text-align: left;
+    color: rgb(0, 238, 255);
+    background-color: #ff0095;
+
+}
+
+#order-table th{
+    background-color: black;
+
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+li{
+    margin: 0px;
+    float: left;
+}
+
+li img{
+    width:180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 6px;
+    
+}
+
+.cover-page{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    
+    
+}
+.cover-page img{
+    width: 200px;
+    max-height: 200%;
+    object-fit: cover;
+    
+}
+
+#submit-order{
+    background-color: #232524;
+    color: rgb(74, 16, 77);
+    padding:7px 15px;
+    border:#fff;
+    border-radius: 5px;
+    cursor: pointer;
+    align:bottom;
+}
+
+#submit-order:hover{
+    background-color: rgb(26, 75, 26);
+}
+
+
+#message {
+    font-size: 3 rem;
+    margin-bottom: 20px;
+    color: rgb(226, 43, 180);
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color:blue;
+    color: rgb(97, 23, 85);
+    cursor: pointer;
+    transition: background-color 0.1s ease;
+}
+
+button:hover {
+    background-color:rgb(157, 255, 0);
+}
+
+button:focus {
+    outline: none;
+}
+
+. about -page {
+    background-image: url('C:\Users\Zandile\Desktop\shop.html - Copy\supplies.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+
+
+
+
+
+
+
+
+
+
+
